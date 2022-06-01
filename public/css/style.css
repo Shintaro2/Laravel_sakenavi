@@ -1,0 +1,492 @@
+a.top {
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  font-size: 30px;
+  
+}
+
+.mainimg {
+  text-align: center;
+  font-family: 'Kaisei Decol', serif;
+}
+
+.mainimg p1 {
+  position: absolute;
+  color: rgb(17, 13, 13);
+  font-size: 90px;
+  top: 20%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+  width: 500px;
+  text-align: center;
+}
+
+.mainimg p2 {
+  position: absolute;
+  color: rgb(17, 13, 13);
+  font-size: 20px;
+  top: 32%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+  width: 500px;
+  text-align: center;
+}
+
+a.btn-green {
+  position: absolute;
+  top: 55%;
+  left: 24%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  /*以下装飾*/
+  margin:0;/*余計な隙間を除く*/
+  border: solid rgb(15, 14, 14) 4px; /*線で囲う*/
+  color: rgb(15, 13, 13);/*文字色*/
+  text-decoration: none;/*下線を表示させない*/
+  background: #9e9a9177;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 60px 60px;
+  font-size: 30px;
+  min-width: 200px;
+  max-width: 400px;
+}
+  
+
+a.btn-green:before {
+ 
+  display: inline-block;  
+  color: rgb(246, 237, 237);
+  background: url("") no-repeat;
+}
+a.btn-green:hover {
+  color: rgb(245, 239, 239);
+  background-color: rgb(16, 15, 14);
+}
+
+
+
+
+
+a.btn-green2 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  /*以下装飾*/
+  margin:0;/*余計な隙間を除く*/
+  border: solid rgb(15, 14, 14) 4px; /*線で囲う*/
+  color: rgb(15, 13, 13);/*文字色*/
+  text-decoration: none;/*下線を表示させない*/
+  background: #9e9a9177;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 60px 60px;
+  font-size: 30px;
+  min-width: 200px;
+  max-width: 400px;
+}
+  
+
+a.btn-green2:before {
+  display: inline-block;  
+  color: #000;
+}
+a.btn-green2:hover {
+  color: rgb(245, 239, 239);
+  background-color: rgb(16, 15, 14);
+}
+
+a.btn-green3 {
+  position: absolute;
+  top: 55%;
+  left: 75.5%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  /*以下装飾*/
+  margin:0;/*余計な隙間を除く*/
+  border: solid rgb(15, 14, 14) 4px; /*線で囲う*/
+  color: rgb(15, 13, 13);/*文字色*/
+  text-decoration: none;/*下線を表示させない*/
+  background: #9e9a9177;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 60px 60px;
+  font-size: 30px;
+  min-width: 200px;
+  max-width: 400px;
+}
+  
+
+a.btn-green3:before {
+  display: inline-block;  
+  color: #000;
+}
+a.btn-green3:hover {
+  color: rgb(245, 239, 239);
+  background-color: rgb(16, 15, 14);
+}
+
+
+.formtitle h1 {
+  position: absolute;
+  color: rgb(17, 13, 13);
+  font-size: 50px;
+  top: 10%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+  width: 500px;
+  text-align: center;
+}
+
+.message {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+}
+
+table{
+  position: fixed;
+  top: 15%;
+  left: 0;
+  font-family: 'Kaisei Decol', serif;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse:separate;
+  border-spacing: 0;
+}
+
+table th{
+  text-align: center;
+  color:white;
+  background: linear-gradient(#829ebc,#225588);
+  border-left: 1px solid #3c6690;
+  border-top: 1px solid #3c6690;
+  border-bottom: 1px solid #3c6690;
+  box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset;
+  width: 25%;
+  padding: 10px 0;
+}
+
+table td{
+  text-align: center;
+  border-left: 1px solid #a8b7c5;
+  border-bottom: 1px solid #a8b7c5;
+  border-top:none;
+  box-shadow: 0px -3px 5px 1px #eee inset;
+  width: 25%;
+  padding: 10px 0;
+}
+
+table tr:nth-child(2n+1) td {
+  background-color: #c7cfbc;
+}
+ 
+/*登録フォームデザイン*/
+html {
+  overflow-y: scroll;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+  margin: 0;
+  padding: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+  font-style: normal;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption,th {
+  text-align: left;
+}
+q:before,q:after {
+  content: '';
+}
+object,embed {
+  vertical-align: top;
+}
+hr,legend {
+  display: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-size: 50%;
+}
+img,abbr,acronym,fieldset {
+  border: 0;
+}
+li {
+  list-style-type: none;
+}
+sup {
+  vertical-align: super;
+  font-size: 0.5em;
+}
+img {
+  vertical-align: top;
+}
+i {
+  font-style: normal;
+}
+/*----リセットcss*----/
+
+/*デザインcss↓*/
+.box_con04 {
+  font-family: 'Kaisei Decol', serif;
+  max-width: 900px;
+  margin: 0  auto;
+}
+@media only screen and (max-width: 768px) {
+  .box_con04 {
+    width: 90%;
+  }
+}
+.box_con04 form {
+  width: 100%;
+}
+.box_con04 form ul {
+  width: 100%;
+}
+.box_con04 form ul li {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #1c2e53;
+  margin: .5em 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media only screen and (min-width: 769px) {
+  .box_con04 form ul li {
+    display: -webkit-flex;
+    display: flex;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+  }
+}
+@media print {
+  .box_con04 form ul li {
+    display: -webkit-flex;
+    display: flex;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+  }
+}
+.ie8 .box_con04 form ul li {
+  display: -webkit-flex;
+  display: flex;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+}
+.box_con04 form ul li .title {
+  position: relative;
+  width: 34%;
+  font-weight: normal;
+  padding: 1em;
+  color: #fff;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media only screen and (min-width: 769px) {
+  .box_con04 form ul li .title {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+}
+@media print {
+  .box_con04 form ul li .title {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+}
+.ie8 .box_con04 form ul li .title {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.box_con04 form ul li .title:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #1c2e53;
+  z-index: 0;
+}
+@media only screen and (max-width: 768px) {
+  .box_con04 form ul li .title {
+    text-align: center;
+    width: 100%;
+    display: block;
+    background: rgba(0, 0, 0, 0.2);
+    padding: .8em .2em;
+  }
+}
+.box_con04 form ul li .title em {
+  position: relative;
+  z-index: 1;
+}
+.box_con04 form ul li .title span {
+  background: #cd6f55;
+  padding: 0 .3em;
+  color: #fff;
+  margin-left: .5em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.box_con04 form ul li .box_det {
+  width: 70%;
+  position: relative;
+  padding: 1em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 768px) {
+  .box_con04 form ul li .box_det {
+    padding: 1.5em .5em;
+    display: block;
+    width: 100%;
+  }
+}
+.box_con04 form ul li .box_br {
+  display: block;
+}
+.box_con04 form ul li select, .box_con04 form ul li textarea, .box_con04 form ul li .wide {
+  width: 100%;
+  height: 3em;
+  padding: .5em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.box_con04 form ul li textarea {
+  height: 10em;
+}
+
+.formtitle {
+  font-family: 'Kaisei Decol', serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+.mt-5 {
+  font-family: 'Kaisei Decol', serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+/*ガチャページタイトル*/
+.gacha {
+  text-align: center;
+  font-family: 'Kaisei Decol', serif;
+}
+.gacha p2 {
+  position: absolute;
+  color: rgb(17, 13, 13);
+  font-size: 70px;
+  top: 15%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+  width: 500px;
+  text-align: center;
+}
+
+.gacha p3 {
+  position: absolute;
+  color: rgb(17, 13, 13);
+  font-size: 20px;
+  top: 30%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+  width: 500px;
+  text-align: center;
+}
+
+
+
+/*ガチャボタン*/
+a.random-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  /*以下装飾*/
+  margin:0;/*余計な隙間を除く*/
+  border: solid rgb(15, 14, 14) 4px; /*線で囲う*/
+  color: rgb(15, 13, 13);/*文字色*/
+  text-decoration: none;/*下線を表示させない*/
+  background: #9e9a9177;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 60px 60px;
+  font-size: 30px;
+  min-width: 200px;
+  max-width: 400px;
+}
+  
+
+a.random-btn:before {
+  display: inline-block;  
+  color: #000;
+}
+a.random-btn:hover {
+  color: rgb(245, 239, 239);
+  background-color: rgb(16, 15, 14);
+}
+
+
+/*もう一度引くボタン*/
+a.random-adain {
+  font-family: 'Kaisei Decol', serif;
+  position: absolute;
+  top: 55%;
+  left: 44%;
+  text-decoration: none;
+  /*以下装飾*/
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 15px 12px;   /* 余白       */
+  background    : #000066;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+}
+  
+
+a.random-adain:before {
+  display: inline-block;  
+  color: #000;
+  background: url("") no-repeat;
+}
+a.random-adain:hover {
+  color: #000066;
+  background-color: #cbb99477;
+}
