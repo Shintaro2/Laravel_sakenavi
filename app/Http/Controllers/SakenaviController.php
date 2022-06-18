@@ -46,15 +46,15 @@ class SakenaviController extends Controller
         //日本酒のデータを受け取る
         $inputs = $request->all();
 
-        // \DB::beginTransaction();
-        // try {
-        //     //日本酒を登録
-             Sake::create($inputs);
-        //     \DB::commit();
-        //  } catch(\Throwable $e) {
-        //     \DB::rollback();
-        //     abort(500);
-        //     }
+        \DB::beginTransaction();
+        try {
+            //日本酒を登録
+        Sake::create($inputs);
+            \DB::commit();
+         } catch(\Throwable $e) {
+            \DB::rollback();
+            abort(500);
+            }
 
         \Session::flash('flash_message', '日本酒登録しました');
         return redirect(route('all'));
