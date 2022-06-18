@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\sake;
+use App\Models\Sake;
 use App\Http\Requests\SakeRequest;
 
 class SakenaviController extends Controller
